@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 git 'https://github.com/muradovkhalid/demo1.git'
-                sh '/mvnw clean compile'
+                sh '/mvnw compile'
             }
         }
     }
