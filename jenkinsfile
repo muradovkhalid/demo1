@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git 'https://github.com/muradovkhalid/java_restful.git'
+                git 'https://github.com/muradovkhalid/demo1.git'
                 sh '/mvnw clean compile'
             }
         }
